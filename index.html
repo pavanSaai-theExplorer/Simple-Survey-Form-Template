@@ -1,0 +1,76 @@
+
+<!-- Basic HTML5 Format -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Student Interests Survey</title>
+
+	<!-- Adding Background Image to the form -->
+
+	<style>
+		body{
+			background-image: url("BackGround-Img.jpg");
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Form Starts -->
+
+	<form action="">
+		<div align="center">
+			<h1>Students Interests Survey Form</h1>
+
+			Enter your name:
+			<input type="text" name="UserName" size=25 maxlength=45 value="" required>
+
+			</br></br>
+
+			Enter your Department:
+			<input type="text" name="Dept" size=25 maxlength=40 value="">
+
+			</br></br>
+
+			Tell us a little bit about yourself:
+			<textarea name="Comments" cols=30 rows=4></textarea>
+
+			</br></br>
+
+			Do you Exercise Daily?
+			<input type="radio" name="exe" value=1>Yes
+			<input type="radio" name="exe" value=2>No
+
+			</br></br>
+
+			How do you like to read favourite topics?
+			<input type="checkbox" name="Books">Books
+			<input type="checkbox" name="Web">Online Resources
+			<input type="checkbox" name="Phone">Phone Apps
+			<input type="checkbox" name="Other">Other
+
+			</br></br>
+
+			Which Genre Movies do you prefer most?
+			<select name="moviepref">
+				<option value=1 selected="true" >Comedy</option>
+				<option value=2>Romance</option>
+				<option value=3>Horror</option>
+				<option value=4>BioPic</option>
+				<option value=5>Thriller</option>
+			</select>
+
+			</br></br>
+
+			<input type="submit" value="Submit Form">
+
+		</div>
+
+	</form>
+
+	<!-- Form Ends -->
+
+</body>
+</html>
